@@ -3,15 +3,15 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(['$routeProvider', function($routeProvider) {
 
     $routeProvider
-        .when('/home', {
+        .when('/dogs', {
             templateUrl: '/views/templates/dogs.html',
             controller: 'Dogs'
         })
-        .when('/another', {
+        .when('/cats', {
             templateUrl: '/views/templates/cats.html',
             controller: 'Cats'
         })
-        .when('/three', {
+        .when('/birds', {
             templateUrl: '/views/templates/birds.html',
             controller: 'Birds'
         })
