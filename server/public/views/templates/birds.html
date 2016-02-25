@@ -2,3 +2,6 @@
 <h2>{{animal.name.$t}}</h2>
 <p>{{animal.description.$t}}</p>
 <header ng-include="'/templates/header.html'"></header>
+<div class="frame">
+    <img ng-src="{{animal.media.photos.photo[2].$t}}" />
+</div>
